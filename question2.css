@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+html {
+	height: 100%;
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	margin: 0px auto auto auto;
+	width: 100%;
+	position: relative;
+	background-color: salmon;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+html {
+	background-color: black;
+}
+
+body {
+	width: 90%;
+	max-width: 1020px;
+	-moz-box-shadow: rgb(0, 0, 0) 20px 0px 25px,  rgb(0, 0, 0) -20px 0px 25px;
+	-webkit-box-shadow: rgb(0, 0, 0) 20px 0px 25px,  rgb(0, 0, 0) -20px 0px 25px;
+	box-shadow: rgb(0, 0, 0) 20px 0px 25px,  rgb(0, 0, 0) -20px 0px 25px;
+}
